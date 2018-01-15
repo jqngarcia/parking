@@ -97,12 +97,12 @@ new L.Control.Info({ position: 'topright' }).addTo(map);
 
 var legend = [
     { condition: 'disc',        color: 'gold',          text: 'Disc'          },
-    { condition: 'no_parking',  color: 'gold',          text: 'No parking'    },
-    { condition: 'no_stopping', color: 'salmon',        text: 'No stopping'   },
+   // { condition: 'no_parking',  color: 'gold',          text: 'No parking'    },
+   // { condition: 'no_stopping', color: 'salmon',        text: 'No stopping'   },
     { condition: 'free',        color: 'limegreen',     text: 'Free parking'  },
     { condition: 'ticket',      color: 'dodgerblue',    text: 'Paid parking'  },
     { condition: 'customers',   color: 'greenyellow',   text: 'For customers' },
-    { condition: 'residents',   color: 'hotpink',       text: 'For residents' }
+    { condition: 'residents',   color: 'green',       text: 'For residents' }
 ];
 
 var lanes = {};
