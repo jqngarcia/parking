@@ -279,7 +279,7 @@ function getColorByDate(conditions) {
 function getQueryParkingLanes() {
     var bounds = map.getBounds();
     var bbox = [bounds.getSouth(), bounds.getWest(), bounds.getNorth(), bounds.getEast()].join(',');
-    return '[out:json];(way[~"^parking:lane:.*"~"ticket"](' + bbox + ');>;);out body;';
+    return '[out:json];(way[~"^parking:lane:.*"~"."](' + bbox + ');>;);out body;';
 }
 
 function getQueryHighways() {
