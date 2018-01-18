@@ -3,7 +3,7 @@ var hash = new L.Hash(map);
 
 if (document.location.href.indexOf('#') == -1)
     if (!setViewFromCookie())
-        map.setView([51.591, 24.609], 5);
+        map.setView([41.4516, 2.2078], 5);
 
 L.tileLayer.grayscale('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
